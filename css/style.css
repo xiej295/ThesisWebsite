@@ -492,6 +492,14 @@ b i:last-child {
     animation: finger 2s infinite;
 }
 
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  position: absolute;
+  border-radius: 15px;
+}
+
 @-webkit-keyframes intro {
     0% {
         opacity: 0;
