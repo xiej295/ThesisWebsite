@@ -91,8 +91,16 @@ h1 {
     text-transform: uppercase;
 }
 
-h3 {
+h2 {
     color: #393939;
+    font-size: 20px;
+}
+
+
+h3 {
+    color: #000;
+    font-size: 20px;
+    line-height: 150%;
 }
 
 h4 {
@@ -108,7 +116,7 @@ h5 {
 
 h6 {
     color: #ffbf00;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h7 {
@@ -123,6 +131,11 @@ h8 {
 
 h9 {
     color: #ffbf00;
+    font-size: 16px;
+}
+
+h10 {
+    color: #000000;
     font-size: 16px;
 }
 
@@ -199,6 +212,11 @@ h9 {
         transform: scale(1.0);
         -webkit-transform: scale(1.0);
     }
+}
+
+.paragraph1{
+  width:1000px;
+  text-align: left;
 }
 
 .content{
