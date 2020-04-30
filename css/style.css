@@ -956,14 +956,15 @@ footer img {
 ==================================================*/
 
 .top-bar {
-    color: #333;
-    padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/placeholder_2.png);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/placeholder_2.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    text-align: center;
+  /* color: #333; */
+  padding: 150px 0 150px;
+  background-image: url(../img/TitleAnimation.gif);
+  background-size: 1440px 384px;
+  background-attachment: fixed;
+  background-position: 0 0;
+  text-align: center;
+  background-repeat: no-repeat;
+
 }
 
 .top-bar h1 {
