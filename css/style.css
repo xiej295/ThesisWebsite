@@ -40,6 +40,10 @@ body {
     color: #999;
 }
 
+
+
+
+
 .no-padding {
     padding-left: 0;
     padding-right: 0;
@@ -82,13 +86,16 @@ a {
 }
 
 
+
+
 /* typography
 ==================================================*/
 
 h1 {
-    color: #393939;
+    color: #ffbf00;
     font-size: 60px;
     text-transform: uppercase;
+    text-align:center;
 }
 
 h2 {
@@ -110,7 +117,7 @@ h4 {
 
 h5 {
     color: #ffbf00;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 
@@ -478,6 +485,9 @@ h10 {
 }
 
 .box-intro .table-cell {
+    /* background: url(https://i.imgur.com/CZdBKjO.gif) no-repeat center center fixed; */
+    background-size: cover;
+    height: 100%;
     display: table-cell;
     vertical-align: middle;
 }
@@ -962,6 +972,7 @@ footer img {
     font-weight: 700;
     color: #999;
     line-height: 50px;
+    text-align: center;;
 }
 
 .top-bar p {
@@ -1204,6 +1215,7 @@ textarea:focus {
     .top-bar h1 {
         font-size: 40px;
         line-height: 30px;
+        text-align: center;
     }
     .portfolio .categories-grid .categories ul li {
         float: none;
@@ -1232,5 +1244,6 @@ textarea:focus {
     .top-bar h1 {
         font-size: 30px;
         line-height: 30px;
+        text-align:center;
     }
 }
