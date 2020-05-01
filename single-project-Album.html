@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Dividual Album</title>
+    <title>Dividual Instagram</title>
     <link rel="icon" href="img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
@@ -17,8 +17,133 @@
     <link href="css/style.css" rel="stylesheet">
 
 
+
     <!-- modernizr -->
     <script src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/processing.js"></script>
+
+    <style>
+
+
+    .video {
+    margin-top:100px;
+    margin-left:50px;
+    }
+
+/* Hide Play button + controls on iOS */
+    video::-webkit-media-controls {
+        display:none !important;
+    }
+
+
+
+			.outerDiv
+			{
+				background-color: #000;
+				color: #fff;
+				/* height: 400px;
+				width: 600px; */
+				/* margin: 0px auto;
+				padding: 5px; */
+			}
+			.leftDiv
+			{
+				height: 600px;
+				width: 25%;
+				float: left;
+        /* background: url(img/Ins_BG_01.png);
+        background-repeat: no-repeat;
+        background-size: 100%, 100%; */
+			}
+      .middleDiv
+			{
+				height: 600px;
+				width: 25%;
+				float: left;
+        /* background: url(img/Ins_BG_01.png);
+        background-repeat: no-repeat;
+        background-size: 100%, 100%; */
+			}
+			.rightDiv
+			{
+				background-color: #000;
+				height: 600px;
+				width: 25%;
+				float: right;
+			}
+      .title1
+      {
+        margin-top: 200px;
+        margin-left: 100px;
+        width: 400px;
+      }
+      .outerDiv02
+			{
+				background-color: #000;
+				color: #fff;
+				/* height: 400px;
+				width: 600px; */
+				/* margin: 0px auto;
+				padding: 5px; */
+			}
+			.leftDiv02
+			{
+				height: 900px;
+				width: 25%;
+				float: left;
+        /* background: url(img/Ins_BG_Left.png);
+        background-repeat: no-repeat;
+        background-size: 100%, 100%; */
+			}
+      .middleDiv02
+			{
+				background-color: #000;
+				height: 900px;
+				width: 25%;
+        float: left;
+        /* background: url(img/Ins_BG_Middle.png);
+        background-repeat: no-repeat;
+        background-size: 100%, 100%; */
+			}
+      .middleDiv03
+			{
+				background-color: #000;
+				height: 900px;
+				width: 25%;
+        float: Right;
+        /* background: url(img/Ins_BG_Middle.png);
+        background-repeat: no-repeat;
+        background-size: 100%, 100%; */
+			}
+      .middleDiv04
+			{
+				background-color: #000;
+				height: 600px;
+				width: 25%;
+        float: left;
+        /* background: url(img/Ins_BG_Middle.png);
+        background-repeat: no-repeat;
+        background-size: 100%, 100%; */
+			}
+			.rightDiv02
+			{
+				background-color: #000;
+				height: 900px;
+				width: 25%;
+				float: right;
+        /* background: url(img/Ins_BG_Right.png);
+        background-repeat: no-repeat;
+        background-size: 100%, 100%; */
+			}
+      .imgDescription
+      {
+        height: 448px;
+				width: 107px;
+
+        margin-left:50px;
+
+      }
+		</style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,7 +153,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body style="background-color:#000">
 
     <!-- Preloader -->
     <div id="preloader">
@@ -79,59 +204,111 @@
         <!-- end nav -->
     </div>
 
-    <!-- top-bar -->
-    <div class="top-bar">
-        <h1>project title</h1>
-        <p><a href="#">Home</a> / <a href="#">portfolio</a> / project title</p>
-    </div>
-    <!-- end top-bar -->
 
-    <!-- main-container -->
-    <div class="container main-container">
-        <div class="col-md-12">
-            <img src="http://placehold.it/1920x1080" alt="" class="img-responsive" />
-            <div class="h-30"></div>
+
+
+
+
+    <div class="outerDiv02">
+			<div class="leftDiv02">
+
+
+
+        <div class="video">
+            <video class="thevideo" loop preload="none" width="207" height="448">
+              <source src="video/Video_2_Edited.mp4" type="video/mp4">
+            </video>
         </div>
 
-        <div class="col-md-12">
-            <h3 class="text-uppercase">project title</h3>
-            <h5>Creative & Lorem ipsum dolor sit amet</h5>
-            <div class="h-30"></div>
+
+
+
+			</div>
+      <div class="middleDiv02">
+
+        <div class="video">
+            <video class="thevideo" loop preload="none" width="207" height="448">
+              <source src="video/Video_5_Edited.mp4" type="video/mp4">
+            </video>
         </div>
 
-        <div class="col-md-9">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia-, bene laudata virtus voluptatis aditus ultimum cum ultimo sapientiae Et nemo nimium beatus est </p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia </p>
+
+			</div>
+      <div class="middleDiv03">
+
+        <div class="video">
+            <video class="thevideo" loop preload="none" width="207" height="448">
+              <source src="video/Video_4_Edited.mp4" type="video/mp4">
+            </video>
         </div>
 
-        <div class="col-md-3">
-            <ul class="cat-ul">
-                <li><i class="ion-ios-circle-filled"></i> Design</li>
-                <li><i class="ion-ios-circle-filled"></i> consectetur adipiscing</li>
-                <li><i class="ion-ios-circle-filled"></i> et gubernationis</li>
-                <li><i class="ion-ios-circle-filled"></i> Aliter enim nosmet</li>
-            </ul>
-            <div class="h-10"></div>
-            <h4>Share</h4>
-            <ul class="social-ul">
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
-            </ul>
+
+			</div>
+			<div class="rightDiv02">
+
+        <div class="video">
+            <video class="thevideo" loop preload="none" width="207" height="448">
+              <source src="video/Video_3_Edited.mp4" type="video/mp4">
+            </video>
         </div>
-    </div>
-    <!-- end main-container -->
 
 
-    <!-- footer -->
-    <footer>
-        <div class="container-fluid">
-            <p class="copyright">© Box Portfolio 2016</p>
+			</div>
+			<div "style: clear:all;"></div>
+		</div>
+
+
+
+
+    <div class="outerDiv">
+			<div class="leftDiv">
+
+
+
+        <div class="imgDescription">
+          <img src="img/VideoGraphic_01.png" width="207px" height="448px">
         </div>
-    </footer>
-    <!-- end footer -->
+
+
+
+
+			</div>
+      <div class="middleDiv">
+        <div class="imgDescription">
+        <img src="img/VideoGraphic_02.png" width="207px" height="448px">
+        </div>
+
+
+
+
+			</div>
+      <div class="middleDiv04">
+        <div class="imgDescription">
+        <img src="img/VideoGraphic_03.png" width="207px" height="448px">
+        </div>
+
+
+
+			</div>
+			<div class="rightDiv">
+        <div class="imgDescription">
+        <img src="img/VideoGraphic_04.png" width="207px" height="448px">
+      </div>
+
+
+
+
+			</div>
+			<div "style: clear:all;"></div>
+		</div>
+
+
+
+
+
+
+
 
     <!-- back to top -->
     <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
@@ -151,6 +328,7 @@
 
     <!--  custom script -->
     <script src="js/custom.js"></script>
+    <script src="js/video.js"></script>
 
 </body>
 
