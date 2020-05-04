@@ -146,6 +146,16 @@ h10 {
     font-size: 16px;
 }
 
+h11 {
+    color: #ffffff;
+    font-size: 16px;
+}
+h12 {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: right;
+}
+
 
 /* preloader
 ==================================================*/
