@@ -29,8 +29,8 @@
 
     <style>
     .item1{
-        width: 360px;
-        height: 900px;
+      width: 100%;
+      height: 100%;
         background: url("img/bg_before_1.png") no-repeat;
         display: inline-block;
     }
@@ -39,9 +39,9 @@
     }
 
     .item2{
-        width: 360px;
-        height: 900px;
-        background: url("img/bg_before_2.png") no-repeat;
+      /* width: 100%;
+      height: 100%; */
+        background: url("img/bg_after_2.gif") no-repeat;
         display: inline-block;
     }
     .item2:hover{
@@ -49,8 +49,8 @@
     }
 
     .item3{
-        width: 360px;
-        height: 900px;
+      width: 100%;
+      height: 100%;
         background: url("img/bg_before_3.png") no-repeat;
         display: inline-block;
     }
@@ -59,8 +59,8 @@
     }
 
     .item4{
-        width: 360px;
-        height: 900px;
+      width: 100%;
+      height: 100%;
         background: url("img/bg_before_4.png") no-repeat;
         display: inline-block;
     }
@@ -70,6 +70,10 @@
     .container-fluid{
         background: url("img/bg.gif") no-repeat;
         width:100%
+    }
+    .middle{
+      width:1000px;
+      display: inline-block;
     }
     </style>
 </head>
@@ -138,8 +142,12 @@
                         <b>&nbsp;Visual.</b>
                     </span>
 		        </h1>
-                <h5>Dividual is Jiawen Xie's thesis project that exploring digital hoarding behaviours.</h5>
+            <div class="middle">
+              <center>
+                <h5>Dividual is an interactive data visualization project that creates visual representations with different forms of digital possessions</h5>
+              </center>
             </div>
+          </div>
 
             <div class="mouse">
                 <div class="scroll"></div>
@@ -157,10 +165,11 @@
                 <!-- single work -->
                 <div class="col-md-3 col-sm-12  fashion logo">
                     <a href="single-project-Album.html" class="portfolio_item">
-                      <div class="item1">
-                        <!-- <img src="img/bg_before_1.png" alt="image" class="img-responsive" /> -->
+                      <!-- <div class="item1"> -->
+                        <img src="img/bg_before_1.png" alt="image" class="img-responsive" width="100%" height=auto/>
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
+                                <img src="img/bg_after_1.gif" alt="image" class="img-responsive" width="100%" height=auto/>
                                 <div class="item_info">
                                     <img src="img/Album_Logo.png" width="50px">
                                     <span>Album</span>
@@ -168,7 +177,7 @@
                                 </div>
                             </div>
                         </div>
-                      </div>
+                      <!-- </div> -->
                     </a>
                 </div>
                 <!-- end single work -->
@@ -176,18 +185,25 @@
                 <!-- single work -->
                 <div class="col-md-3 col-sm-6 ads graphics">
                     <a href="single-project-Instagram.html" class="portfolio_item">
-                      <div class="item2">
-                        <!-- <img src="img/bg_before_2.png" alt="image" class="img-responsive" /> -->
+                      <!-- <div class="item2"> -->
+                        <img src="img/bg_before_2.png" alt="image" class="img-responsive" width="100%" height=auto/>
+
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
+
+                                <img src="img/bg_after_2.gif" alt="image" class="img-responsive" width="100%" height=auto/>
                                 <div class="item_info">
+
+
                                     <img src="img/Instagram_Logo.png" width="50px">
                                     <span>Instagram</span>
                                     <em>I post</em>
+
                                 </div>
+
                             </div>
                         </div>
-                      </div>
+
                     </a>
                 </div>
                 <!-- end single work -->
@@ -195,9 +211,10 @@
                 <!-- single work -->
                 <div class="col-md-3 col-sm-6 photography">
                     <a href="single-project-Pinterest.html" class="portfolio_item">
-                      <div class="item3">
-                        <!-- <img src="img/bg_before_3.png" alt="image" class="img-responsive" /> -->
+                      <!-- <div class="item3"> -->
+                        <img src="img/bg_before_3.png" alt="image" class="img-responsive" width="100%" height=auto/>
                         <div class="portfolio_item_hover">
+                            <img src="img/bg_after_3.gif" alt="image" class="img-responsive" width="100%" height=auto/>
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
                                     <img src="img/Pinterest_Logo.png" width="50px">
@@ -206,7 +223,7 @@
                                 </div>
                             </div>
                         </div>
-                      </div>
+                      <!-- </div> -->
                     </a>
                 </div>
                 <!-- end single work -->
@@ -214,9 +231,10 @@
                 <!-- single work -->
                 <div class="col-md-3 col-sm-6 fashion ads">
                     <a href="single-project-WeChat.html" class="portfolio_item">
-                        <!-- <img src="img/bg_before_4.png" alt="image" class="img-responsive" /> -->
-                        <div class="item4">
+                        <img src="img/bg_before_4.png" alt="image" class="img-responsive" width="100%" height=auto/>
+                        <!-- <div class="item4"> -->
                         <div class="portfolio_item_hover">
+                          <img src="img/bg_after_4.gif" alt="image" class="img-responsive" width="100%" height=auto/>
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
                                   <img src="img/WeChat_Logo.png" width="50px">
@@ -225,7 +243,7 @@
                                 </div>
                             </div>
                         </div>
-                      </div>
+                      <!-- </div> -->
                     </a>
                 </div>
                 <!-- end single work -->
@@ -263,8 +281,8 @@
     <!--  custom script -->
     <script src="js/custom.js"></script>
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script><script  src="js/script.js"></script>
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script><script  src="js/script.js"></script> -->
 
 </body>
 
